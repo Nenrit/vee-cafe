@@ -1,0 +1,585 @@
+.HomePage{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  }
+/* Sidebar */
+.Sidebar{
+  width: 300px;
+  height: 100vh;
+  background-color: rgb(4, 4, 26);
+  margin: 0;
+  color: white;
+  position: fixed;
+  }
+  .sidebar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+   .logo{
+    color: rgb(206, 58, 5);
+    height: 180px;
+    padding: 10px;
+    width: 100px;
+    border: 1px solid rgb(206, 58, 5);
+    margin: 55px 10px;
+    border-radius: 37px;
+   }
+   .logo h1{
+    margin: 0;
+    color: white;
+   }
+   .logo-text{
+    margin: 0;
+    color: white;
+   }
+   .logo-container{
+    padding: 10px;
+   }
+   .logo hr{
+    background-color: rgb(206, 58, 5);
+    margin: 10px 0;
+    height: 2px;
+    border: none;
+   }
+    .content a{
+    margin: 10px 0;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  .content a:hover{
+    color: rgb(206, 58, 5);;
+  }
+ .Sidebar button{
+    height: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 120px;
+    background-color: rgb(206, 58, 5);
+    color: white;
+    border: none;
+  }
+  .sidebar-container .address{
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
+  /* MainPage */
+  .Mainpage{
+    height:100vh;
+    width: 1400px;
+    color: black;
+    margin-left: 300px;
+  }
+  .right-bar{
+    height: 637px;
+    width: 450px;
+    background-color:  rgb(143, 48, 14);
+    opacity: 0.6;
+    color: #fff;
+    margin-left: 596px;
+    padding: 10px;
+  }
+   .bar-info h3{
+    margin: 50px 40px;
+    }
+    .bar-info h1{
+    font-size: 55px;
+    margin: 10px 40px;
+    }
+    .bar-info p{
+      margin: 20px 30px;
+      padding: 20px;
+    }
+    .bar-info .schedule{
+      margin-top: 80px;
+      margin-left: 20px;
+      display: flex;
+    }
+    .bar-info .days{
+      font-size: 20px;
+      margin: 0;
+    
+    }
+    .bar-info .time{
+    font-size: 30px;
+    margin: 0 ;
+    } 
+
+    /* AboutPage */
+    .AboutPage{
+      display: flex;
+      height: 100vh;
+      
+    }
+     .AboutUs{
+      height: 100vh;
+      width: 1100px;
+      margin-left: 300px;
+    }
+    .header{
+      height: 220px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      background-image: url("https://media-1.eldoradofurniture.com/images/products/marketing/2020-01/MAXI-EL-DORADO-FURNITURE-NICE-176_MEDIUM.jpg");
+    }
+    .header .cup{
+      height: 300px;
+      position: right;
+      
+      margin: 10px 10px;
+    } 
+    .header-text h1{
+      margin-top: 40px ;
+      font-size: 55px;
+      padding: 30px;
+      color: white;
+      margin-left: 50px;
+    }
+      .about-content{
+      margin-top: 80px;
+      padding: 20px;
+      
+    }
+    .about-content h1{
+      margin-bottom: 0;
+      margin-left: 15px;
+    }
+    .about-info{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .info-1{
+      line-height: 2;
+    }
+    .info-2{
+      margin-left: 30px;
+      line-height: 2;
+      }  
+       .more-info{
+        height: 600px;
+      margin-top: 50px;
+      }
+      .coffee-pics{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        height: 300px;
+      }
+      .coffee-pics .img-1{
+        height: 400px;
+      }
+      .coffee-pics .img-2{
+        height: 400px;
+      } 
+       .grid-container{
+        height: 400px;
+        background-color: rgb(206, 58, 5);
+      }
+      .grid-content{
+        height: 500px;
+        margin-top: 40px;
+        background-color: rgb(206, 58, 5);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .grid{
+        margin: 100px 35px;
+        padding: 10px;
+      }
+      .grid h4{
+        margin-top: 30px;
+      }
+      .grid p{
+        margin-top: 10px;
+      } 
+      
+       GalleryPage
+      .GalleryPage{
+        display: flex;
+        height: 100vh;
+      } 
+       .Gallery{
+        height: 100vh;
+        width: 1070px;
+        margin-left: 275px;
+      }
+      .gallery-header{
+      height: 220px;
+      margin-left: 20px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      background-image: url("https://media-1.eldoradofurniture.com/images/products/marketing/2020-01/MAXI-EL-DORADO-FURNITURE-NICE-176_MEDIUM.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      .gallery-header .cup{
+      height: 300px;
+      margin: 10px 10px;
+      }
+      .gallery-text{
+        font-size: 20px;
+        color: white;
+        margin: 50px 40px;
+
+      }
+      .gallery-1{
+        display: flex;
+        margin-top: 70px;
+        margin-left: 60px;
+      }
+      
+      .gallery1-img img{
+        height: 400px;
+      }
+      .gallery1-text{
+        margin-left: 10px;
+        margin-top: 60px;
+      }
+      .gallery1-text h1{
+        font-size: 45px;
+        padding: 10px;
+      }
+      .gallery1-text p{
+        padding: 10px;
+        line-height: 2;
+        
+      } 
+      .extra-images1{
+      margin-top: 50px;
+      display: flex;
+      justify-content: right;
+      margin-right: 50px;
+      }
+      .extra-images1 img{
+        height: 200px;
+      }
+       .hr1{
+        height: 1px;
+        width: 900px;
+        background-color:rgb(206, 58, 5);
+        margin: 60px auto;
+        border: none;
+      }  
+       .gallery-2{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .gallery2-text{
+        margin-left: 50px;
+      }
+      .gallery2-text h1{
+        font-size: 45px;
+        padding: 10px;
+      }
+      .gallery2-text p{
+        padding: 10px;
+        line-height: 2;
+        
+      }
+      .gallery2-img{
+        margin-right: 50px;
+      }
+      .gallery2-img img{
+        height: 400px;
+      }
+      .extra-images2{
+        margin-top: 50px;
+        display: flex;
+        justify-content: left;
+        margin-left: 50px;
+        }
+        .extra-images2 img{
+          height: 200px;
+        }
+        .hr2{
+          height: 1px;
+          width: 900px;
+          background-color:rgb(206, 58, 5);
+          margin: 60px auto;
+          border: none;
+        }
+         .gallery-3{
+          display: flex;
+          margin-top: 70px;
+          margin-left: 60px;
+        }
+        .gallery3-img img{
+          height: 400px;
+        }
+        .gallery3-text{
+          margin-left: 50px;
+          margin-top: 60px;
+        }
+        .gallery3-text h1{
+          font-size: 45px;
+          padding: 10px;
+        }
+        .gallery3-text p{
+          padding: 10px;
+          line-height: 2;
+          
+        }
+        .extra-images3{
+          margin-top: 50px;
+          display: flex;
+          justify-content: right;
+          margin-right: 50px;
+      }
+      .extra-images3 img{
+        height: 200px;
+      }
+      .hr3{
+        height: 1px;
+        width: 900px;
+        background-color:rgb(206, 58, 5);
+        margin: 60px auto;
+        border: none;
+        position: relative;
+        bottom: 30px;
+      } 
+
+
+      /* MenuPage */
+      .MenuPage{
+   height: 100vh;
+  display: flex;
+      }
+.Menu{
+  height: 100vh;
+  width: 1400px;
+  margin-left: 300px;
+}
+.menu-header{
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-image: url("https://media-1.eldoradofurniture.com/images/products/marketing/2020-01/MAXI-EL-DORADO-FURNITURE-NICE-176_MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .menu-header-img .cup{
+  height: 300px;
+  margin: 10px 10px;
+  }
+  .menu-header-text{
+    font-size: 30px;
+    color: white;
+    margin: 50px 40px;
+  }
+  .menu-item1{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 60px;
+  }
+  .item1-img{
+    margin-top: 70px;
+  }
+  .item1-img img{
+    height: 500px;
+  }
+  .item1-text{
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .item1-text .number{
+    color:rgb(206, 58, 5);
+    padding: 10px;
+  }
+  .item1-text h4{
+    padding: 10px;
+  }
+  .item1-text p{
+    padding: 10px;
+    line-height: 2;
+  }  
+   .menu-item2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .item2-text{
+    margin-left: 50px;
+  }
+  .item2-text .number{
+    color:rgb(206, 58, 5);
+    padding: 10px;
+  }
+  .item2-text p{
+    padding: 10px;
+    line-height: 2;
+    
+  }
+  .item2-img{
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .item2-img img{
+    height: 500px;
+  }
+  .item2-text h4{
+    padding: 10px;
+  }  
+  .menu-item3{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 60px;
+  }
+  .item3-img{
+    margin-top: 70px;
+  }
+  .item3-img img{
+    height: 500px;
+  }
+  .item3-text{
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .item3-text .number{
+    color:rgb(206, 58, 5);
+    padding: 10px;
+  }
+  .item3-text h4{
+    padding: 10px;
+  }
+  .item3-text p{
+    padding: 10px;
+    line-height: 2;
+  } 
+  .menu-item4{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .item4-text{
+    margin-left: 50px;
+  }
+  .item4-text .number{
+    color:rgb(206, 58, 5);
+    padding: 10px;
+  }
+  .item4-text p{
+    padding: 10px;
+    line-height: 2;
+    
+  }
+  .item4-img{
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .item4-img img{
+    height: 500px;
+  }
+  .item4-text h4{
+    padding: 10px;
+  }
+  .menu-hr{
+    height: 1px;
+    width: 900px;
+    background-color:rgb(206, 58, 5);
+    margin: 60px auto;
+    border: none;
+    bottom: 30px;
+    position: relative;
+  } 
+
+  /* ContactPage */
+  .ContactPage{
+    height: 100vh;
+   display: flex;
+       }
+ .Contact{
+   height: 100vh;
+   width: 1400px;
+   margin-left: 300px;
+ }
+ .contact-header{
+   height: 220px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+   background-image: url("https://media-1.eldoradofurniture.com/images/products/marketing/2020-01/MAXI-EL-DORADO-FURNITURE-NICE-176_MEDIUM.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   }
+   .contact-header-img .cup{
+   height: 300px;
+   margin: 10px 10px;
+   }
+   .contact-header-text{
+     font-size: 30px;
+     color: white;
+     margin: 50px 40px;
+   }
+   .contact-grid-container{
+    height: 400px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+   .contact-grid{
+    margin: 50px 35px;
+    padding: 10px;
+   }
+   .contact-form{
+    height: 500px;
+    background-color: rgb(206, 58, 5);
+    margin: 50px auto;
+    padding: 20px;
+   }
+   .contact-form-header{
+    text-align: center;
+   }
+   .contact-form-header h1{
+    color: white;
+   }
+   .input-house{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .name-and-email{
+    display: flex;
+   }
+   .name-and-email input{
+    height: 20px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 10px;
+   }
+   .input-house .subject{
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    border: none;
+    margin: 10px 10px;
+   }
+   .input-house .message{
+    height: 100px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px 10px;
+    border: none;
+   }
+   .input-house button{
+    height: 30px;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+     }
